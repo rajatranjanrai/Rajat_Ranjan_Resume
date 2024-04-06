@@ -1,0 +1,282 @@
+%-------------------------
+% Resume in Latex
+% Author : RAJAT RANJAN
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape RAJAT RANJAN} \\ \vspace{1pt}
+    D E V E L O P E R \\ \vspace{3pt} 
+    \small \raisebox{-0.1\height}\faPhone\ +91 9695591973 ~ ~ \href{mailto:rajatranjanraigmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{rajatranjanrai@gmail.com}} ~ ~ 
+    \href{https://www.linkedin.com/in/rajatranjanrai/}{\raisebox{-0.2\height}\faLinkedin\ \underline{rajatranjanrai}}  ~ ~
+    \href{https://github.com/rajatranjanrai}{\raisebox{-0.2\height}\faGithub\ \underline{rajatranjanrai}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Visvesvaraya Technological University}{Aug. 2019 -- July 2023}
+      {Bachelor of Engineering in Computer Science}{Bangalore, Karnataka}
+      \resumeSubheading
+      {Tulsi Vidya Niketan}{Apr. 2019}
+      {Intermediate}{Varanasi, UttarPradesh}
+      \resumeSubheading
+      {Tulsi Vidya Niketan}{Apr. 2019}
+      {High-school}{Varanasi, UttarPradesh}
+  \resumeSubHeadingListEnd
+
+%-----------Technical Skills-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+        \item \textbf{Languages:} HTML, CSS, JavaScript, C, Python
+        \vspace{3pt}
+        \item \textbf{Technologies and Frameworks:} GitHub, VScode, Jupiter, Eclipse, Google Cloud Platform, Android Studio, Ms-Office, PowerBI, Tailwindcss, Bootstrap, MySQL
+        \vspace{3pt}
+        \item \textbf{Interest:} Web Design, Web Development, Web Technologies, Problem Solving, Creativity and Innovations
+    }
+\end{itemize}
+\vspace{-10pt}
+
+
+
+
+%-----------Internship Projects-----------
+\section{Internship Projects}
+\resumeSubHeadingListStart
+
+\vspace{5pt}
+\resumeSubheading
+{3D Model Gallery}{\textit{February 2024}}
+{Web Development}{Resonance3D Pvt. Ltd.}
+\resumeItemListStart
+    \resumeItem{Utilized skills: HTML, CSS, JavaScript, GLB 3D Model, AR/VR Viewer.}
+    \resumeItem{Developed and implemented a live project to create immersive experiences.}
+    \resumeItem{Integrated GLB 3D Models to enable users to visualize objects within their space.}
+    \resumeItem{Source Code: \href{https://github.com/rajatranjanrai/3D-Model-Gallery.git}{\textit{https://github.com/rajatranjanrai/3D-Model-Gallery.git}}}
+    \resumeItem{Live Demo: \href{https://3dmodels.resonance3d.com}{\textit{https://3dmodels.resonance3d.com}}}
+\resumeItemListEnd
+
+\vspace{5pt}
+\resumeSubheading
+{Quora for Engineering Queries}{\textit{August 2022}}
+{Web Development}{Compsoft Technologies}
+\resumeItemListStart
+    \resumeItem{Utilized Skills: HTML, CSS, JavaScript, Python, Node.js.} \\
+    \resumeItem{Developed a user-friendly platform enabling students to connect with senior engineers.} \\
+    \resumeItem{Facilitated seamless communication and knowledge exchange within the engineering community.} \\
+    \resumeItem{Source Code: \href{https://github.com/rajatranjanrai/3D-Model-Gallery.git}{\textit{https://github.com/rajatranjanrai/3D-Model-Gallery.git}}} \\
+    \resumeItem{Live Demo: \href{https://3dmodels.resonance3d.com}{\textit{https://3dmodels.resonance3d.com}}}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+
+%-----------PROJECTS-----------
+\section{Individual Projects}
+    \vspace{5pt}
+    \resumeSubheading
+          {SpaceX Re-design  FALCON 9}{\textit{October 2023}}
+          {Developer}{}
+          \resumeItemListStart
+            \resumeItem{Skills Utilized: HTML, CSS (Tailwind), JavaScript}
+            \resumeItem{Undertook SpaceX redesign project with a focus on providing comprehensive information about Falcon 9.}
+            \resumeItem{Implemented Tailwind CSS framework to ensure responsive and visually appealing design.}
+            \resumeItem{Source Code: \href{https://github.com/rajatranjanrai/Falcon-9.git}{\textit{https://github.com/rajatranjanrai/Falcon-9.git}}}
+            \resumeItem{Live Demo: \href{https://rajatranjan-falcon-9.netlify.app}
+            {\textit{https://rajat-redesign-specex-falcon9}}}
+          \resumeItemListEnd
+    \vspace{5pt}
+
+
+    \resumeSubheading
+{Easy Bank Landing Page (From FrontEnd Mentor)}{\textit{July 2023}}
+{Developer}{}
+\resumeItemListStart
+    \resumeItem{Skills Utilized: HTML, CSS, JavaScript. Enhanced user interaction and functionality using JavaScript.}
+    \resumeItem{Designed and developed a fully responsive landing page for Easy Bank, meeting FrontEnd Mentor's specifications.}
+    \resumeItem{Implemented HTML and CSS to create a visually appealing layout, ensuring compatibility with various screen sizes.}
+    \resumeItem{SrcCode: \href{https://github.com/rajatranjanrai/EASY-BANKING-Lending-Page.git}{\textit{https://github.com/rajatranjanrai/EASY-BANKING-Lending-Page.git}}}
+    \resumeItem{Live Demo: \href{https://rajat-easybanking.netlify.app/}{\textit{https://rajat-easybanking.netlify.app/}}}
+\resumeItemListEnd
+
+\vspace{5pt}
+
+
+
+%%-----------INTERNSHIPS-----------
+\section{INTERNSHIPS}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Resonance3D Pvt. Ltd.}{January 2024 -- March 2024}
+      {Web Developer}{}
+    \resumeSubheading
+      {Compsoft Technologies}{August 2022 -- September 2022}
+      {Full Stack Web Development}{}
+  \resumeSubHeadingListEnd
+
+
+%%-----------CERTIFICATIONS-----------
+\section{CERTIFICATIONS}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Course on HTML}{2021}
+      {\href{http://ude.my/UC-64198ff3-c0cd-4354-922b-a0c610b02116}{Verification Link}}{UDEMY}
+    \resumeSubheading
+      {Course on CSS}{2021}
+      {\href{http://ude.my/UC-64198ff3-c0cd-4354-922b-a0c610b02116}{Verification Link}}{UDEMY}
+      \resumeSubheading
+      {Course on JAVASCRIPT}{2021}
+      {\href{http://ude.my/UC-64198ff3-c0cd-4354-922b-a0c610b02116}{Verification Link}}{UDEMY}
+      \resumeSubheading
+      {Course on C Fundamentals}{2021}
+      {\href{http://ude.my/UC-64198ff3-c0cd-4354-922b-a0c610b02116}{Verification Link}}{UDEMY}
+      \resumeSubheading
+      {Course on Python}{2021}
+      {\href{http://ude.my/UC-3b24818b-b8cd-4e6d-86d4-5f554d9f8580}{Verification Link}}{UDEMY}
+  \resumeSubHeadingListEnd
+
+
+
+
+%------Strength-------
+\section{Strength}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item Strong communication
+                \item Skilled problem-solver
+                \item Strong team player
+                \item Quick learner
+                \item Innovative thinker
+                \item Self-motivated
+                \item Result Oriented 
+                \item Leadership
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+\end{document}
